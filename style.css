@@ -4,7 +4,7 @@
 
 */
 
-@font-face {
+/*@font-face {
 font-family: "Gobold";
 src: url('assets/fonts/Gobold Regular.ttf') format('truetype');
 font-weight: normal;
@@ -15,10 +15,53 @@ font-family: 'Gobold';
 src: url('assets/fonts/Gobold Thin.ttf') format('truetype');
 font-weight: 100;
 font-style: normal;
- }
+ }*/
 
 
 body{
-	font-family: Gobold;
-	font-weight: 100;
+	
+
+}
+
+p,h1,h2,h3,h4,h5,h6{
+	color: #fff;
+}
+
+.bg-black{
+	background-color: #000;
+	border-bottom: 5px solid #000;
+}
+
+nav.navbar{
+	width: 100%;
+}
+
+.sec-padd{
+	height: 100vh;
+}
+
+a.find-out-btn, a.find-out-btn i{
+	font-size: 20px;
+	color: #000;
+	
+}
+
+a.find-out-btn{
+	background-color: #edd300;
+	border-radius: 0;
+	font-weight: 400;
+}
+
+footer{
+	background-color: #2d2d2d;
+}
+
+footer a{
+	color: #edd300;
+}
+
+footer ul li a{
+	color:#fff;
+	background-color: #1a1a1a;
+	padding: 5px 10px;
 }
